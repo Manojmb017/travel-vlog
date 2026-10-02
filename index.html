@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanderlust — Top 10 Most Visited Places in the World</title>
+  <meta name="description" content="Explore the top 10 most visited places in the world with photos, descriptions, and live maps." />
+  <link rel="stylesheet" href="style.css?v=2" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Wander<span>lust</span></a>
+      <ul class="nav-links">
+        <li><a href="#places">Places</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero" id="home">
+    <div class="aurora"></div>
+    <div class="container hero-content">
+      <span class="badge">🌍 TOP 10 WORLDWIDE</span>
+      <h1>
+        The most <span class="gradient">visited places</span><br>
+        on planet Earth
+      </h1>
+      <p class="subtitle">
+        From the Eiffel Tower to the Great Wall of China — explore the world's
+        most iconic destinations with photos, stories, and live maps.
+      </p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">10</span>
+          <span class="stat-label">Places</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">6</span>
+          <span class="stat-label">Countries</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">500M+</span>
+          <span class="stat-label">Visitors / year</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== SEARCH ===== -->
+  <section class="search-section">
+    <div class="container">
+      <input
+        type="text"
+        id="searchInput"
+        class="search-input"
+        placeholder="🔍 Search by place name or country..."
+      >
+    </div>
+  </section>
+
+  <!-- ===== PLACES ===== -->
+  <section id="places" class="section">
+    <div class="container">
+      <div class="places-list" id="placesList">
+
+        <!-- ============ PLACE 1: EIFFEL TOWER ============ -->
+        <article class="place" data-name="eiffel tower paris france">
+          <div class="place-rank">#01</div>
+          <div class="place-image">
+            <img src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=1600&q=80" alt="Eiffel Tower">
+          </div>
+          <div class="place-info">
+            <h2>Eiffel Tower</h2>
+            <p class="place-location">📍 Paris, France</p>
+            <p class="place-desc">
+              The iconic iron lattice tower on the Champ de Mars is a global cultural icon
+              of France and one of the most recognizable structures in the world. Built for
+              the 1889 World's Fair, it stands 330 meters tall and has welcomed over 300
+              million visitors since it opened.
+            </p>
+            <div class="place-meta">
+              <span>👥 7M+ visitors / year</span>
+              <span>🗼 Built 1889</span>
+              <span>📏 330 m tall</span>
+            </div>
+          </div>
+          <div class="place-map">
+            <iframe src="https://www.google.com/maps?q=Eiffel+Tower+Paris&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+
+        <!-- ============ PLACE 2: GREAT WALL OF CHINA ============ -->
+        <article class="place" data-name="great wall of china beijing">
+          <div class="place-rank">#02</div>
+          <div class="place-image">
+            <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=1600&q=80" alt="Great Wall of China">
+          </div>
+          <div class="place-info">
+            <h2>Great Wall of China</h2>
+            <p class="place-location">📍 Huairou, China</p>
+            <p class="place-desc">
+              A series of fortifications stretching over 21,000 km across northern China,
+              built over 2,000 years ago to protect against invasions. It's the longest
+              wall in the world and one of the New Seven Wonders.
+            </p>
+            <div class="place-meta">
+              <span>👥 10M+ visitors / year</span>
+              <span>🏯 Built 7th century BC</span>
+              <span>📏 21,196 km long</span>
+            </div>
+          </div>
+          <div class="place-map">
+            <iframe src="https://www.google.com/maps?q=Great+Wall+of+China+Badaling&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+
+        <!-- ============ PLACE 3: COLOSSEUM ============ -->
+        <article class="place" data-name="colosseum rome italy">
+          <div class="place-rank">#03</div>
+          <div class="place-image">
+            <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1600&q=80" alt="Colosseum Rome">
+          </div>
+          <div class="place-info">
+            <h2>Colosseum</h2>
+            <p class="place-location">📍 Rome, Italy</p>
+            <p class="place-desc">
+              The largest ancient amphitheatre ever built, hosting gladiator contests and
+              public spectacles in the heart of the Roman Empire. It could hold up to
+              80,000 spectators and remains the most iconic symbol of Imperial Rome.
+            </p>
+            <div class="place-meta">
+              <span>👥 7.6M+ visitors / year</span>
+              <span>🏛️ Built 80 AD</span>
+              <span>🎭 Capacity 80,000</span>
+            </div>
+          </div>
+          <div class="place-map">
+            <iframe src="https://www.google.com/maps?q=Colosseum+Rome+Italy&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+
+        <!-- ============ PLACE 4: TAJ MAHAL ============ -->
+        <article class="place" data-name="taj mahal agra india">
+          <div class="place-rank">#04</div>
+          <div class="place-image">
+            <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1600&q=80" alt="Taj Mahal">
+          </div>
+          <div class="place-info">
+            <h2>Taj Mahal</h2>
+            <p class="place-location">📍 Agra, India</p>
+            <p class="place-desc">
+              A stunning white marble mausoleum built by Emperor Shah Jahan in memory of
+              his beloved wife Mumtaz Mahal. It's a UNESCO World Heritage Site and widely
+              considered the finest example of Mughal architecture.
+            </p>
+            <div class="place-meta">
+              <span>👥 7.5M+ visitors / year</span>
+              <span>🕌 Built 1653</span>
+              <span>💎 UNESCO Site</span>
+            </div>
+          </div>
+          <div class="place-map">
+            <iframe src="https://www.google.com/maps?q=Taj+Mahal+Agra+India&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+
+        <!-- ============ PLACE 5: MACHU PICCHU ============ -->
+        <article class="place" data-name="machu picchu peru">
+          <div class="place-rank">#05</div>
+          <div class="place-image">
+            <img src="https://images.unsplash.com/photo-1526392060635-9d6019884377?w=1600&q=80" alt="Machu Picchu">
+          </div>
+          <div class="place-info">
+            <h2>Machu Picchu</h2>
+            <p class="place-location">📍 Cusco Region, Peru</p>
+            <p class="place-desc">
+              A 15th-century Inca citadel set high in the Andes Mountains at 2,430 meters.
+              Rediscovered in 1911, it's one of the New Seven Wonders of the World and a
+              UNESCO World Heritage Site.
+            </p>
+            <div class="place-meta">
+              <span>👥 1.5M+ visitors / year</span>
+              <span>🏔️ Built 1450</span>
+              <span>⛰️ 2,430 m elevation</span>
+            </div>
+          </div>
+          <div class="place-map">
+            <iframe src="https://www.google.com/maps?q=Machu+Picchu+Peru&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+
+        <!-- ============ PLACE 6: STATUE OF LIBERTY ============ -->
+        <article class="place" data-name="statue of liberty new york usa">
+          <div class="place-rank">#06</div>
+          <div class="place-image">
+            <img src="https://images.unsplash.com/photo-1605130284535-11dd9eedc58a?w=1600&q=80" alt="Statue of Liberty">
+          </div>
+          <div class="place-info">
+            <h2>Statue of Liberty</h2>
+            <p class="place-location">📍 New York, USA</p>
+            <p class="place-desc">
+              A colossal neoclassical sculpture on Liberty Island — a universal symbol of
+              freedom and democracy. Gifted by France in 1886, it stands 93 meters tall
+              including the pedestal.
+            </p>
+            <div class="place-meta">
+              <span>👥 4.5M+ visitors / year</span>
+              <span>🗽 Built 1886</span>
+              <span>🎁 Gift from France</span>
+            </div>
+          </div>
+          <div class="place-map">
+            <iframe src="https://www.google.com/maps?q=Statue+of+Liberty+New+York&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+
+        <!-- ============ PLACE 7: CHRIST THE REDEEMER ============ -->
+        <article class="place" data-name="christ the redeemer rio brazil">
+          <div class="place-rank">#07</div>
+          <div class="place-image">
+            <img src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=1600&q=80" alt="Christ the Redeemer">
+          </div>
+          <div class="place-info">
+            <h2>Christ the Redeemer</h2>
+            <p class="place-location">📍 Rio de Janeiro, Brazil</p>
+            <p class="place-desc">
+              An Art Deco statue of Jesus Christ atop the Corcovado mountain, overlooking
+              the vibrant city of Rio. It stands 30 meters tall and is one of the New
+              Seven Wonders of the World.
+            </p>
+            <div class="place-meta">
+              <span>👥 2M+ visitors / year</span>
+              <span>⛪ Built 1931</span>
+              <span>📏 30 m tall</span>
+            </div>
+          </div>
+          <div class="place-map">
+            <iframe src="https://www.google.com/maps?q=Christ+the+Redeemer+Rio+de+Janeiro&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+
+        <!-- ============ PLACE 8: PYRAMIDS OF GIZA (FIXED IMAGE) ============ -->
+        <article class="place" data-name="pyramids of giza egypt">
+          <div class="place-rank">#08</div>
+          <div class="place-image">
+            <img src="https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=1600&q=80" alt="Pyramids of Giza">
+          </div>
+          <div class="place-info">
+            <h2>Pyramids of Giza</h2>
+            <p class="place-location">📍 Giza, Egypt</p>
+            <p class="place-desc">
+              The oldest of the Seven Wonders of the Ancient World — monumental tombs
+              built for pharaohs over 4,500 years ago. The Great Pyramid of Giza was the
+              tallest man-made structure for over 3,800 years.
+            </p>
+            <div class="place-meta">
+              <span>👥 14.7M+ visitors / year</span>
+              <span>🔺 Built 2560 BC</span>
+              <span>📏 146 m tall</span>
+            </div>
+          </div>
+          <div class="place-map">
+            <iframe src="https://www.google.com/maps?q=Pyramids+of+Giza+Egypt&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+
+        <!-- ============ PLACE 9: BURJ KHALIFA ============ -->
+        <article class="place" data-name="burj khalifa dubai uae">
+          <div class="place-rank">#09</div>
+          <div class="place-image">
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1600&q=80" alt="Burj Khalifa">
+          </div>
+          <div class="place-info">
+            <h2>Burj Khalifa</h2>
+            <p class="place-location">📍 Dubai, UAE</p>
+            <p class="place-desc">
+              The world's tallest building at 828 meters with 163 floors. An engineering
+              marvel with an observation deck on the 148th floor — visitors can see the
+              Persian Gulf and beyond from the top.
+            </p>
+            <div class="place-meta">
+              <span>👥 2M+ visitors / year</span>
+              <span>🏙️ Built 2010</span>
+              <span>📏 828 m tall</span>
+            </div>
+          </div>
+          <div class="place-map">
+            <iframe src="https://www.google.com/maps?q=Burj+Khalifa+Dubai&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+
+        <!-- ============ PLACE 10: SYDNEY OPERA HOUSE ============ -->
+        <article class="place" data-name="sydney opera house australia">
+          <div class="place-rank">#10</div>
+          <div class="place-image">
+            <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1600&q=80" alt="Sydney Opera House">
+          </div>
+          <div class="place-info">
+            <h2>Sydney Opera House</h2>
+            <p class="place-location">📍 Sydney, Australia</p>
+            <p class="place-desc">
+              A multi-venue performing arts centre with a distinctive sail-like design —
+              a masterpiece of 20th-century architecture and a UNESCO World Heritage Site.
+              It hosts over 1,500 performances a year.
+            </p>
+            <div class="place-meta">
+              <span>👥 10.9M+ visitors / year</span>
+              <span>🎭 Built 1973</span>
+              <span>💎 UNESCO Site</span>
+            </div>
+          </div>
+          <div class="place-map">
+            <iframe src="https://www.google.com/maps?q=Sydney+Opera+House+Australia&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+
+      </div>
+
+      <p id="noResults" class="no-results" style="display:none;">
+        🚫 No places found. Try a different search.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <span class="section-num">ABOUT</span>
+      <h2 class="section-title">About this vlog</h2>
+      <p class="about-text">
+        This travel vlog is a curated collection of the world's most visited places,
+        complete with photos, descriptions, and real-time locations on Google Maps.
+        Whether you're planning a trip or just daydreaming, these places have captivated
+        millions of travelers year after year.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <p>✈️ Wanderlust — Made with ❤️ for travelers</p>
+      <p class="small">© <span id="year"></span> All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>
